@@ -1,0 +1,19 @@
+[project]
+name = "argparse-help-i18n"
+version = "0.1.0"
+description = "Internationalization for argparse help"
+requires-python = ">=3.8"
+dependencies = [
+    "locale-plus>=0.1.2",
+]
+
+[dependency-groups]
+dev = [
+    "argparse-typing>=0.2.0 ; python_full_version >= '3.9'",
+    "babel>=2.18.0",
+    "devscript>=0.1.1",
+]
+
+[devscript]
+compile = "pybabel compile -d argparse_help_i18n/locale -D argparse-help"
+generate = "pybabel extract -F ./babel.cfg -o ./argparse_help_i18n/locale/argparse-help.pot . --project=\"argparse-help-i18n\" --version=\"0.1.0\" --last-translator=\"MagIlyasDOMA <magilyas.doma.09@list.ru>\""
