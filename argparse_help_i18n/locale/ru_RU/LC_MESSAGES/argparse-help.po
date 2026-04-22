@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: argparse-help-i18n 0.1.0\n"
+"POT-Creation-Date: 2026-04-21 21:41+0300\n"
+"Last-Translator: MagIlyasDOMA <magilyas.doma.09@list.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+"Language: ru\n"
+
+#: argparse_help_i18n/__init__.py:17
+msgid "Show this help message and exit"
+msgstr "Показать это справочное сообщение и выйти"
+
+#: argparse_help_i18n/__init__.py:20
+msgid "Show program's version and exit"
+msgstr "Показать версию программы и выйти"
