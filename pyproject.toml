@@ -6,6 +6,7 @@ requires-python = ">=3.8"
 dependencies = [
     "locale-plus>=0.1.2",
 ]
+license = {text = "MIT"}
 
 [dependency-groups]
 dev = [
