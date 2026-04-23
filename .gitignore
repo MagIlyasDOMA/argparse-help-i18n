@@ -1,4 +1,7 @@
-/.idea
+/.idea/
 /test.py
 /structure.txt
 *.pyc
+/build/
+/dist/
+*.egg-info/
