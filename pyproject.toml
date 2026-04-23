@@ -1,12 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "argparse-help-i18n"
 version = "0.1.0"
 description = "Internationalization for argparse help"
+readme = "README.md"
 requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "MagIlyasDOMA", email = "magilyas.doma.09@list.ru"}
+]
+keywords = ["argparse", "i18n", "internationalization", "gettext", "help"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Internationalization",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
 dependencies = [
     "locale-plus>=0.1.2",
 ]
-license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/MagIlyasDOMA/argparse-help-i18n"
+Repository = "https://github.com/MagIlyasDOMA/argparse-help-i18n.git"
+Issues = "https://github.com/MagIlyasDOMA/argparse-help-i18n/issues"
 
 [dependency-groups]
 dev = [
