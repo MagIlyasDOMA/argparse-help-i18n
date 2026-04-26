@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: argparse-help-i18n 0.2.0\n"
+"Project-Id-Version: argparse-help-i18n 0.2.1\n"
 "POT-Creation-Date: 2026-04-21 21:41+0300\n"
 "Last-Translator: MagIlyasDOMA <magilyas.doma.09@list.ru>\n"
 "MIME-Version: 1.0\n"
